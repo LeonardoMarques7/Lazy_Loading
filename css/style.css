@@ -1,0 +1,64 @@
+/* Geral */
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 1rem !important;
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #fff;
+    background-color: #222;
+    margin-bottom: 10px;
+}
+
+/* Container de imagens */
+.container {
+    width: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.image-container {
+    margin-bottom: 1rem;
+    flex: 1;
+    border: 1px solid #353535;
+    border-radius: 4px;
+}
+
+.image-container img {
+    display: block;
+    margin: 2rem auto 1rem;
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.image-container p {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #fff;
+}
